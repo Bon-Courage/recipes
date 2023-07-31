@@ -1,0 +1,59 @@
+body {
+    background-color: whitesmoke;
+}
+
+.heading {
+    font-family: "Amatic SC";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 62px;
+
+}
+
+.logo1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: auto;
+}
+
+.Homepage p {
+    font-size: 20px;
+    font-family: Borel;
+    border: solid 2px black;
+}
+
+/* CSS code for the flex container */
+.content {
+    display: flex;
+    /* This sets the container as a flex container */
+    justify-content: space-between;
+    /* This places the items with equal space between them */
+    align-items: center;
+    /* This centers the items vertically */
+}
+
+/* CSS code for the flex items */
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    /* This allows the items to grow and take equal space within the flex container */
+    text-align: center;
+    /* Centers the content (image and text) within each flex item */
+    padding: 5px;
+    /* Adds some spacing between items */
+}
+
+/* CSS code for the images */
+.img {
+    max-width: 400px;
+    /* Ensures the image doesn't exceed its original size */
+    height: 600px;
+    /* Keeps the image's aspect ratio */
+}
